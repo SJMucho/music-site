@@ -1,0 +1,75 @@
+body {
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background-color: #b0c4de;
+  color: darkslategray;
+  text-shadow: 2px 2px 5px;
+}
+
+.SM {
+  font-size: 50px;
+  font-family: "Courier New";
+  margin: 20px;
+}
+
+.header {
+  font-size: 50px;
+  border-bottom: solid darkslategray;
+  display: flex;
+  align-items: baseline;
+  /* justify-content: space-around; */
+}
+
+.fred {
+  text-align: center;
+}
+
+.PB {
+  /* width: 20rem;
+  height: 25rem; */
+  /* width: 20px;
+  height: 100px; */
+  /* max-width: 50%; */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 2px 2px 5px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.fa-facebook {
+  color: darkslategray;
+}
+
+.fa-twitter {
+  color: darkslategray;
+}
+
+#social {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer {
+  font-size: 50px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}

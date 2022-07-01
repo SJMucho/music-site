@@ -7,19 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
-  font-family: "Timeburner"
+/* code {
+  font-family: "Timeburner";
+} */
+
+@font-face {
+  font-family: Timeburner;
+  src: url(src/fonts/Timeburner-xJB8.ttf);
 }
 
 body {
-  background-color: #90EE90;
+  background-color: #90ee90;
   color: darkslategray;
   text-shadow: 2px 2px 5px;
 }
 
 .SM {
   font-size: 50px;
-  font-family: "Courier New";
+  font-family: "ALBA";
   margin: 20px;
 }
 
@@ -27,6 +32,7 @@ body {
   font-size: 50px;
   border-bottom: solid darkslategray;
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
   /* justify-content: space-around; */
 }

@@ -52,7 +52,19 @@ body {
 }
 
 .spotify-player {
-  margin-left: 215px;
+  /* margin-left: 215px;
+  margin-bottom: 50px; */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 275px;
+  border: 0px;
+}
+
+.spotify-container {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -215,5 +227,75 @@ body {
   }
   100% {
     color: #accfcb;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  body {
+    width: 100% auto;
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .body {
+    width: 100% auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .SM {
+    font-size: 40px;
+  }
+
+  .flyer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .SM {
+    font-size: 40px;
+  }
+  .flyer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .SM {
+    font-size: 40px;
+  }
+  .flyer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .SM {
+    font-size: 35px;
+  }
+  .flyer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .SM {
+    font-size: 25px;
+  }
+  .flyer {
+    width: 200px;
+  }
+  #social {
+    font-size: 30px;
+  }
+  .contact {
+    font-size: 20px;
   }
 }

@@ -410,6 +410,12 @@ body {
   .SM {
     margin: 0px;
   }
+  #SM-media {
+    font-size: 30px;
+  }
+  #social {
+    font-size: 30px;
+  }
   .header {
     display: flex;
     flex-direction: column;

@@ -413,8 +413,11 @@ body {
   #SM-media {
     font-size: 30px;
   }
+  .social-container-header {
+    margin: 0px;
+  }
   #social {
-    font-size: 30px;
+    font-size: 25px;
   }
   .header {
     display: flex;

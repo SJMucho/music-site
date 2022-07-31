@@ -342,6 +342,15 @@ body {
   }
 }
 
+@media screen and (max-width: 460px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+  }
+}
+
 @media screen and (max-width: 412px) {
   body {
     width: 100% auto;

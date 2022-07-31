@@ -38,8 +38,11 @@ body {
 
 .gig-info-container {
   text-align: center;
-  font-size: 30px;
   text-shadow: 5px 5px 9px;
+}
+
+.gig-info {
+  font-size: 30px;
 }
 
 .fred-link {
@@ -236,6 +239,21 @@ body {
   }
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    width: 100% auto;
+  }
+  .calendar-text {
+    font-size: 25px;
+  }
+  .gig-info-container {
+    margin-top: 70px;
+  }
+  .flyer-container {
+    margin-bottom: 50px;
+  }
+}
+
 @media screen and (max-width: 772px) {
   .body {
     width: 100% auto;
@@ -248,37 +266,61 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    width: 100% auto;
+  }
   .SM {
-    font-size: 40px;
+    margin: 0px;
+    font-size: 20px;
   }
-
+  .calendar-text {
+    font-size: 20px;
+  }
   .gig-info-container {
-    font-size: 10px;
+    margin-top: 30px;
   }
-
   .flyer {
     width: 300px;
+  }
+  .contact {
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 390px) {
+  body {
+    width: 100% auto;
+  }
   .SM {
-    font-size: 40px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .calendar-text {
+    font-size: 20px;
   }
   .gig-info-container {
-    font-size: 15px;
+    margin-top: 30px;
   }
   .flyer {
     width: 300px;
   }
+  .contact {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 414px) {
+  body {
+    width: 100% auto;
+  }
   .SM {
-    font-size: 40px;
+    font-size: 45px;
+  }
+  .calendar-text {
+    font-size: 20px;
   }
   .gig-info-container {
-    font-size: 10px;
+    margin-top: 40px;
   }
   .flyer {
     width: 300px;
@@ -286,6 +328,9 @@ body {
 }
 
 @media screen and (max-width: 360px) {
+  body {
+    width: 100% auto;
+  }
   .SM {
     font-size: 35px;
   }
@@ -297,20 +342,44 @@ body {
   }
 }
 
+@media screen and (max-width: 412px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+  }
+  .contact {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 280px) {
+  body {
+    width: 100% auto;
+  }
   .SM {
     font-size: 25px;
   }
   .flyer {
     width: 200px;
   }
-  .gig-info-container {
+  .gig-info {
     font-size: 10px;
   }
   #social {
     font-size: 30px;
   }
   .contact {
-    font-size: 20px;
+    font-size: 17px;
   }
 }

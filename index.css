@@ -24,24 +24,34 @@ body {
   justify-content: space-between;
 }
 
-/* img {
-  box-shadow: 5px 5px 9px;
-} */
-
 .flyer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .flyer {
-  width: 40%;
+  width: 30%;
+  filter: sepia(100%);
+}
+
+.gig-info-container{
+  text-align: center;
+  font-size: 30px;
+}
+
+.fred-link{
+  text-decoration: none;
+  color: darkslategray; 
+}
+
+.fred-link:hover{
+  color: lightseagreen;
 }
 
 .spotify-player {
-  /* margin-left: 215px;
-  margin-bottom: 50px; */
+  margin-top: 20px;
   border-radius: 12px;
   display: flex;
   justify-content: center;

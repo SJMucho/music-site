@@ -255,7 +255,7 @@ body {
 }
 
 @media screen and (max-width: 772px) {
-  .body {
+  body {
     width: 100% auto;
   }
   .header {

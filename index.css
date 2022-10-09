@@ -26,32 +26,31 @@ body {
 
 .flyer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  justify-content: center;
+  margin-bottom: 150px;
+  margin-top: 100px;
 }
 
-.flyer {
-  width: 30%;
-  filter: sepia(100%);
+.calendar {
+  margin-left: 20px;
 }
 
-.gig-info-container {
-  text-align: center;
-  text-shadow: 5px 5px 9px;
+.flyer1 {
+  width: 350px;
 }
 
-.gig-info {
-  font-size: 30px;
+.flyer2 {
+  width: 400px;
+  height: 550px;
+}
+.flyer-subcontainer1 {
+  margin-right: 40px;
 }
 
-.fred-link {
-  text-decoration: none;
-  color: darkslategray;
-}
-
-.fred-link:hover {
-  color: lightseagreen;
+.flyer:hover {
+  filter: opacity(50%);
 }
 
 .spotify-player {
@@ -247,14 +246,20 @@ body {
   body {
     width: 100% auto;
   }
-  .calendar-text {
-    font-size: 25px;
+  .calendar {
+    text-align: center;
   }
-  .gig-info-container {
-    margin-top: 70px;
-  }
+
   .flyer-container {
-    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
 }
 
@@ -269,6 +274,29 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    width: 100% auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .flyer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   body {
     width: 100% auto;
@@ -277,11 +305,20 @@ body {
     margin: 0px;
     font-size: 20px;
   }
-  .calendar-text {
-    font-size: 20px;
+  .calendar {
+    text-align: center;
   }
-  .gig-info-container {
-    margin-top: 30px;
+
+  .flyer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
   .flyer {
     width: 300px;
@@ -299,15 +336,24 @@ body {
     margin: 0px;
     font-size: 20px;
   }
-  .calendar-text {
-    font-size: 20px;
+
+  .calendar {
+    text-align: center;
   }
-  .gig-info-container {
-    margin-top: 30px;
+
+  .flyer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  .flyer {
-    width: 300px;
+
+  .flyer-subcontainer1 {
+    margin-left: 10px;
+    margin-bottom: 30px;
   }
+
   .contact {
     font-size: 20px;
   }
@@ -320,11 +366,20 @@ body {
   .SM {
     font-size: 45px;
   }
-  .calendar-text {
-    font-size: 20px;
+  .calendar {
+    text-align: center;
   }
-  .gig-info-container {
-    margin-top: 40px;
+
+  .flyer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
   .flyer {
     width: 300px;
@@ -372,6 +427,9 @@ body {
   .SM {
     margin: 0px;
   }
+  .flyer-container {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 393px) {
@@ -380,6 +438,15 @@ body {
   }
   .SM {
     margin: 0px;
+  }
+
+  .flyer-container {
+    margin-bottom: 20px;
+  }
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
   .contact {
     font-size: 20px;
@@ -393,11 +460,32 @@ body {
   .SM {
     font-size: 25px;
   }
-  .flyer {
-    width: 200px;
+
+  .flyer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
   }
-  .gig-info {
-    font-size: 10px;
+
+  .flyer-subcontainer1 {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .calendar {
+    font-size: 20px;
+  }
+
+  .flyer1 {
+    width: 75%;
+    margin-left: 30px;
+  }
+
+  .flyer2 {
+    width: 85%;
+    height: 85%;
+    margin-left: 25px;
   }
   #social {
     font-size: 30px;
@@ -428,8 +516,7 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  .gig-info-container {
-    margin-left: 20px;
-    margin-right: 20px;
+  .flyer-container {
+    margin-bottom: 20px;
   }
 }

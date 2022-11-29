@@ -363,6 +363,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
     font-size: 20px;
@@ -381,6 +384,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
     font-size: 20px;
@@ -398,6 +404,9 @@ html {
 @media screen and (max-width: 375px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     margin: 0px;
@@ -417,6 +426,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     font-size: 45px;
   }
@@ -429,6 +441,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
     font-size: 30px;
@@ -438,6 +453,9 @@ html {
 @media screen and (max-width: 280px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     font-size: 25px;
@@ -454,11 +472,17 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
 }
 
 @media screen and (max-width: 600px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
 }
 
@@ -471,6 +495,9 @@ html {
     flex-direction: column;
     align-items: center;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -481,6 +508,9 @@ html {
     margin: 0px;
     font-size: 20px;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
 
   .contact {
     font-size: 20px;
@@ -490,6 +520,9 @@ html {
 @media screen and (max-width: 390px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     margin: 0px;
@@ -513,6 +546,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     font-size: 45px;
   }
@@ -524,6 +560,9 @@ html {
 @media screen and (max-width: 360px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     font-size: 35px;
@@ -537,6 +576,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
     font-size: 30px;
@@ -547,6 +589,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
   }
@@ -556,6 +601,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .SM {
     margin: 0px;
   }
@@ -564,6 +612,9 @@ html {
 @media screen and (max-width: 393px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     margin: 0px;
@@ -576,6 +627,9 @@ html {
 @media screen and (max-width: 280px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     font-size: 25px;
@@ -591,6 +645,9 @@ html {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
     width: 100% auto;
+  }
+  .parallax {
+    background-attachment: inherit;
   }
   .SM {
     margin: 0px;

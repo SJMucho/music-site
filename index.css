@@ -355,7 +355,7 @@ html {
   }
   .gig-dates-container {
     font-size: 1.1rem;
-    width: 90%;
+    width: 97%;
   }
   .spotify-container {
     width: 85%;
@@ -379,7 +379,7 @@ html {
   }
   .bio {
     font-size: 1.1rem;
-   }
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -523,6 +523,10 @@ html {
   }
   .parallax {
     background-attachment: inherit;
+  }
+  .gig-dates-container {
+    font-size: 1.1rem;
+    width: 97%;
   }
   .SM {
     margin: 0px;

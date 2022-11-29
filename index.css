@@ -493,11 +493,20 @@ html {
     margin: 0px;
     font-size: 20px;
   }
-
   .contact {
     font-size: 20px;
   }
+  .bio-container {
+    width: 95%;
+  }
+  #social {
+    font-size: 30px;
+  }
+  .contact {
+    font-size: 17px;
+  }
 }
+
 
 @media screen and (max-width: 414px) {
   body {

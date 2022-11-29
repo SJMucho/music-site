@@ -3,10 +3,6 @@
   src: url(/fonts/ALBA____.TTF);
 }
 
-/* #body {
-  opacity: 0.5;
-} */
-
 body,
 html {
   background-color: #afeeee;
@@ -30,25 +26,10 @@ html {
   justify-content: space-between;
 }
 
-/* .pic-container {
-  border-radius: 12px;
-} */
-
-/* img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-} */
-
-/* img {
-  filter: brightness(200%)
-} */
-
 .parallax {
   background-image: url("images/Brooklyn\ roof.jpg");
 
   /* Set a specific height */
-  /* min-height: 1000px;  */
   height: 100%;
 
   /* Create the parallax scrolling effect */
@@ -56,6 +37,7 @@ html {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #afeeee;
 }
 
 #about {
@@ -77,25 +59,43 @@ html {
   font-weight: bold;
 }
 
+#about {
+  margin-top: 10px;
+}
+
 #gigs {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
-.flyer1 {
-  max-width: 70%;
-  height: auto;
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-.flyer-container {
+.gigs-container {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-around; */
-  margin-top: 20px;
-  margin-bottom: 10px;
+  justify-content: space-evenly;
 }
+
+
+/* .flyer-img {
+  max-width: 300px;
+  height: auto;
+  /* margin-left: 80px;
+  margin-top: 30px; */ 
+
+.gig-dates-container {
+ 
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+
+/* .flyer1 {
+  width: 400px;
+  height: auto;
+  align-content: center;
+} */
 
 .tx-link {
   text-decoration: none;
@@ -115,46 +115,6 @@ html {
   color: lightseagreen;
 }
 
-.gig-dates {
-  width: 75%;
-  list-style-type: none;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
-/* .calendar {
-  align-items: center;
-  margin-left: 20px;
-} */
-
-/* .flyer-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 75px;
-  margin-top: 100px;
-}
-
-.calendar {
-  margin-left: 20px;
-}
-.flyer1 {
-  width: 350px;
-}
-
-.flyer2 {
-  width: 400px;
-  height: 550px;
-}
-.flyer-subcontainer1 {
-  margin-right: 40px;
-}
-
-.flyer:hover {
-  filter: opacity(50%);
-} */
 
 .flyer:hover {
   filter: opacity(50%);
@@ -164,12 +124,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-content: center; */
-  /* width: 70%; */
-  /* margin: auto;
-  margin-bottom: 50px; */
-  /* display: block; */
-  /* margin-left: 220px;; */
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -385,13 +339,31 @@ html {
   }
 }
 
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-    background-position: center top;
+
+@media screen and (max-width: 930px) {
+  body {
+    width: 100% auto;
     height: 100%;
   }
+  .gigs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .bio {
+    font-size: 1.1rem;
+  }
+  .gig-dates-container {
+    font-size: 1.1rem;
+    width: 90%;
+  }
+  .spotify-container {
+    width: 85%;
+  }
+
 }
+
 
 @media screen and (max-width: 912px) {
   body {

@@ -353,6 +353,7 @@ html {
   }
   .bio {
     font-size: 1.1rem;
+    width: 90%;
   }
   .gig-dates-container {
     font-size: 1.1rem;
@@ -375,21 +376,7 @@ html {
 @media screen and (max-width: 600px) {
   body {
     width: 100% auto;
-  }
-  .calendar {
-    text-align: center;
-  }
-
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 10px;
+    height: auto;
   }
 }
 
@@ -413,18 +400,6 @@ html {
     flex-direction: column;
     align-items: center;
   }
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 40px;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -439,20 +414,6 @@ html {
     text-align: center;
   }
 
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-  .flyer {
-    width: 300px;
-  }
   .contact {
     font-size: 20px;
   }
@@ -471,19 +432,6 @@ html {
     text-align: center;
   }
 
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-left: 10px;
-    margin-bottom: 30px;
-  }
-
   .contact {
     font-size: 20px;
   }
@@ -499,21 +447,6 @@ html {
   .calendar {
     text-align: center;
   }
-
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-  .flyer {
-    width: 300px;
-  }
 }
 
 @media screen and (max-width: 360px) {
@@ -525,9 +458,6 @@ html {
   }
   .gig-info-container {
     font-size: 10px;
-  }
-  .flyer {
-    width: 300px;
   }
 }
 
@@ -556,9 +486,6 @@ html {
   }
   .SM {
     margin: 0px;
-  }
-  .flyer-container {
-    margin-bottom: 20px;
   }
 }
 
@@ -589,18 +516,6 @@ html {
   }
   .SM {
     font-size: 25px;
-  }
-
-  .flyer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 20px;
   }
 
   .calendar {

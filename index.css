@@ -74,22 +74,19 @@ html {
   justify-content: space-evenly;
 }
 
-
 /* .flyer-img {
   max-width: 300px;
   height: auto;
   /* margin-left: 80px;
-  margin-top: 30px; */ 
+  margin-top: 30px; */
 
 .gig-dates-container {
- 
   text-decoration: none;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
   font-size: 1.3rem;
   margin-bottom: 20px;
 }
-
 
 /* .flyer1 {
   width: 400px;
@@ -114,7 +111,6 @@ html {
 .links:hover {
   color: lightseagreen;
 }
-
 
 .flyer:hover {
   filter: opacity(50%);
@@ -339,17 +335,14 @@ html {
   }
 }
 
-
 @media screen and (max-width: 930px) {
   body {
     width: 100% auto;
-    height: 100%;
   }
   .gigs-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
   }
   .bio {
     font-size: 1.1rem;
@@ -362,43 +355,23 @@ html {
   .spotify-container {
     width: 85%;
   }
-
 }
 
-
-@media screen and (max-width: 912px) {
-  body {
-    width: 100% auto;
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    width: 100% auto;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 375px) {
   body {
     width: 100% auto;
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .SM {
+    margin: 0px;
+    font-size: 20px;
   }
-}
 
-@media screen and (max-width: 768px) {
-  body {
-    width: 100% auto;
+  .contact {
+    font-size: 20px;
   }
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .bio {
+    font-size: 1.1rem;
+    width: 90%;
   }
 }
 
@@ -410,8 +383,9 @@ html {
     margin: 0px;
     font-size: 20px;
   }
-  .calendar {
-    text-align: center;
+  .bio {
+    font-size: 1.1rem;
+    width: 90%;
   }
 
   .contact {
@@ -419,7 +393,7 @@ html {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 375px) {
   body {
     width: 100% auto;
   }
@@ -427,9 +401,9 @@ html {
     margin: 0px;
     font-size: 20px;
   }
-
-  .calendar {
-    text-align: center;
+  .bio {
+    font-size: 1.1rem;
+    width: 90%;
   }
 
   .contact {
@@ -449,6 +423,109 @@ html {
   }
 }
 
+@media screen and (max-width: 428px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    font-size: 25px;
+  }
+  #social {
+    font-size: 30px;
+  }
+  .contact {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  body {
+    width: 100% auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100% auto;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  body {
+    width: 100% auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} 
+
+media screen and (max-width: 768px) {
+  body {
+    width: 100% auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+    font-size: 20px;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+} 
+
+@media screen and (max-width: 390px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    margin: 0px;
+    font-size: 20px;
+  }
+
+  .calendar {
+    text-align: center;
+  }
+
+  .contact {
+    font-size: 20px;
+  }
+} 
+
+@media screen and (max-width: 414px) {
+  body {
+    width: 100% auto;
+  }
+  .SM {
+    font-size: 45px;
+  }
+  .calendar {
+    text-align: center;
+  }
+} 
+
 @media screen and (max-width: 360px) {
   body {
     width: 100% auto;
@@ -459,9 +536,9 @@ html {
   .gig-info-container {
     font-size: 10px;
   }
-}
+} 
 
-@media screen and (max-width: 428px) {
+ @media screen and (max-width: 428px) {
   body {
     width: 100% auto;
   }
@@ -496,15 +573,6 @@ html {
   .SM {
     margin: 0px;
   }
-
-  .flyer-container {
-    margin-bottom: 20px;
-  }
-
-  .flyer-subcontainer1 {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
   .contact {
     font-size: 20px;
   }
@@ -516,21 +584,6 @@ html {
   }
   .SM {
     font-size: 25px;
-  }
-
-  .calendar {
-    font-size: 20px;
-  }
-
-  .flyer1 {
-    width: 75%;
-    margin-left: 30px;
-  }
-
-  .flyer2 {
-    width: 85%;
-    height: 85%;
-    margin-left: 25px;
   }
   #social {
     font-size: 30px;
@@ -561,7 +614,4 @@ html {
     flex-direction: column;
     justify-content: center;
   }
-  .flyer-container {
-    margin-bottom: 20px;
-  }
-}
+}  

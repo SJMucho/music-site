@@ -339,6 +339,9 @@ html {
   body {
     width: 100% auto;
   }
+  .parallax {
+    background-attachment: inherit;
+  }
   .gigs-container {
     display: flex;
     flex-direction: column;
@@ -346,7 +349,6 @@ html {
   }
   .bio {
     font-size: 1.1rem;
-    width: 90%;
   }
   .gig-dates-container {
     font-size: 1.1rem;
@@ -506,7 +508,6 @@ html {
     font-size: 17px;
   }
 }
-
 
 @media screen and (max-width: 414px) {
   body {

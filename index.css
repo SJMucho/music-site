@@ -494,10 +494,6 @@ html {
     font-size: 20px;
   }
 
-  .calendar {
-    text-align: center;
-  }
-
   .contact {
     font-size: 20px;
   }
@@ -564,27 +560,6 @@ html {
   }
   .contact {
     font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 39px) {
-  body {
-    width: 100% auto;
-  }
-  .SM {
-    margin: 0px;
-  }
-  .contact {
-    font-size: 20px;
-  }
-  .bio-container {
-    width: 90%;
-  }
-  #social {
-    font-size: 30px;
-  }
-  .contact {
-    font-size: 17px;
   }
 }
 

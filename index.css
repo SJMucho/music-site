@@ -272,6 +272,23 @@ html {
       0 0 70px lightseagreen, 0 0 80px lightseagreen;
   }
 }
+ .parallax {
+  border-radius: 20px;
+  animation: glowing 7s ease-in-out infinite alternate;
+}
+
+@keyframes glowing {
+  from {
+    box-shadow: 0 0 10px lightseagreen,
+      0 0 20px whitesmoke 0 0 30px lightseagreen, 0 0 40px whitesmoke,
+      0 0 50px lightseagreen, 0 0 60px lightseagreen, 0 0 70px lightseagreen;
+  }
+  to {
+    box-shadow: 0 0 20px whitesmoke, 0 0 30px lightseagreen,
+      0 0 40px lightseagreen, 0 0 50px lightseagreen, 0 0 60px lightseagreen,
+      0 0 70px lightseagreen, 0 0 80px lightseagreen;
+  }
+ }
 
 .pic-container {
   border-radius: 20px;

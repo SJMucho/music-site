@@ -18,7 +18,6 @@ html {
   text-shadow: 5px 5px 9px;
 }
 
-
 .header {
   font-size: 50px;
   display: flex;
@@ -35,7 +34,6 @@ html {
   background-repeat: no-repeat; */
   /* background-attachment: fixed; */
 }
-
 
 .parallax {
   background-attachment: fixed;
@@ -62,26 +60,23 @@ html {
   /* background-color: #afeeee; */
 }
 
-
-
 /* .background {
   background-image: url("images/roof-small.jpeg");
   background-size: 75% 75% auto;
   background-position: center top;
   margin-left: 20px;
   margin-right: 20px; */
-  /* background-attachment: fixed; */
-  /* background-position: center top;
+/* background-attachment: fixed; */
+/* background-position: center top;
   background-repeat: no-repeat;
   background-size: cover; */
-  /* height: 50%; */
-  /* background-size:50% 75%; */
-  /* background-size: cover;
+/* height: 50%; */
+/* background-size:50% 75%; */
+/* background-size: cover;
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover; */
-
 
 /* .parallax {
   background-attachment: fixed;
@@ -91,24 +86,23 @@ html {
   background-color: #afeeee;
 } */
 
-
 /* .parallax {  */
-  /* height: 100%;
+/* height: 100%;
   background-size:100% 100%; */
-  /* background-size: cover;
+/* background-size: cover;
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #afeeee; */
-  /* background-image: url("images/roof_small.jpeg"); */
+/* background-image: url("images/roof_small.jpeg"); */
 
-  /* Set a specific height */
-  /* height: 100%; */
-  /* background-size:100% 100% */
+/* Set a specific height */
+/* height: 100%; */
+/* background-size:100% 100% */
 
-  /* Create the parallax scrolling effect */
-  /* background-attachment: fixed;
+/* Create the parallax scrolling effect */
+/* background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,20 +200,42 @@ html {
 }
 
 .spotify-container {
+  height: 100%;
   display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  /* width: 60%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-bottom: 50px;
+  height: 5px;
+  margin-bottom: 50px; */
+}
+
+.spotify-player-size {
+  height: 90%;
+  width: 75% auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 60% auto; */
 }
 
 .spotify-player {
-  margin-top: 20px;
-  border-radius: 7px;
-  height: 275px;
+  height: 100%;
   border: 0px;
+  /* margin-top: 20px;
+  border-radius: 7px; */
+  /* height: 275px; */
+  /* height: 100% auto;
+  border: 0px; */
 }
 
 .social-container-header {

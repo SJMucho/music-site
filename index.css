@@ -457,13 +457,21 @@ html {
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 951px) {
   body {
     width: 100% auto;
   }
-  .parallax {
-    background-attachment: inherit;
+  .mobile-display {display: none};
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    width: 100% auto;
   }
+  .mobile-display {display: block}
+  /* .parallax {
+    background-attachment: inherit;
+  } */
   .gigs-container {
     display: flex;
     flex-direction: column;
